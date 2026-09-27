@@ -28,7 +28,7 @@ export const App = () => {
             type="button"
             className="delete ml-3"
             onClick={() => {
-              setSelectedGood(undefined);
+              setSelectedGood('');
             }}
           />
         </h1>
@@ -56,7 +56,7 @@ export const App = () => {
                     type="button"
                     className="button is-info"
                     onClick={() => {
-                      setSelectedGood(undefined);
+                      setSelectedGood('');
                     }}
                   >
                     -
